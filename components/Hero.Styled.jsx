@@ -32,10 +32,6 @@ export const HeroContainer = styled.div`
   }
 `;
 
-var c = document.getElementById("slogan");
-var ctx = c.getContext("2d");
-ctx.font = "";
-
 export const HeroDivTop = styled.p`
   display: flex;
   color: ${color.$white};

@@ -17,15 +17,15 @@ html {
     margin: 0;
     font-family: ${typeface.poppins};
     overflow-x: hidden;
-    color: ${color.$white};
+    z-index: 0;
     font-weight: ${typeface.$medium};
-    background-color: var(--color-secondaryBackground);
+    background-color: ${color.$black};
   
     height: 400vh;
 
-    ::-webkit-scrollbar{
+    /* ::-webkit-scrollbar{
       display: none;
-    }
+    } */
     h1,h2,h3,h4,h5,h6, p {
       margin: 0;
     }
@@ -34,7 +34,7 @@ html {
     cursor: pointer;
   
     text-decoration: none;
-    /* color: ${color.$white}; */
+ 
     } 
   }
 `;

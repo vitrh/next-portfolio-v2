@@ -21,7 +21,6 @@ html {
     font-weight: ${typeface.$medium};
     background-color: ${color.$black};
   
-    height: 400vh;
 
     /* ::-webkit-scrollbar{
       display: none;
@@ -34,7 +33,7 @@ html {
     cursor: pointer;
   
     text-decoration: none;
- 
+   
     } 
   }
 `;

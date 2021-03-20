@@ -1,11 +1,10 @@
+import React from "react";
 import Head from "next/head";
-import { Contact } from "../components/LandingPage/Contact";
-import { Hero } from "../components/LandingPage/Hero";
 import { Navbar } from "../components/LandingPage/Navbar";
-import { Work } from "../components/LandingPage/Work";
 import { Footer } from "../components/LandingPage/Footer";
+import { Aboutme } from "../components/AboutPage/aboutme";
 
-export default function Home() {
+export default function AboutMe() {
   return (
     <div>
       <Head>
@@ -22,12 +21,10 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap"
           rel="stylesheet"
         ></link>
-        <title>Vinh's Portfolio</title>
+        <title>Vinh | About Me Page</title>
       </Head>
       <Navbar />
-      <Hero />
-      <Work />
-      <Contact />
+      <Aboutme />
       <Footer />
     </div>
   );

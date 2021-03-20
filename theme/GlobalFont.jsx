@@ -46,8 +46,31 @@ export const $mqmd9font = "1.9rem";
 export const $mqrFont1 = "2.5rem";
 export const $mqrFont2 = "2.2rem";
 export const $mqrFont3 = "1.9rem";
+export const $mqrFont33 = "1.6rem";
 export const $mqrFont4 = "1.5rem";
 export const $mqrFont5 = "1rem";
 export const $mqrFont6 = "0.9rem";
-export const $mqrFont7 = "0.6rem";
-export const $mqrFont8 = "0.3rem";
+export const $mqrFont7 = "0.7rem";
+export const $mqrFont8 = "0.6rem";
+
+// text in contact
+
+export const $mqtFont1 = "3.5rem";
+export const $mqtFont2 = "3.2rem";
+export const $mqtFont3 = "3rem";
+export const $mqtFont4 = "2rem";
+export const $mqtFont5 = "1.5rem";
+export const $mqtFont6 = "1.2rem";
+export const $mqtFont7 = "1rem";
+export const $mqtFont8 = "0.8rem";
+
+// Contactme button sizes
+
+export const $contactFont1 = "1rem";
+export const $contactFont2 = "0.9rem";
+export const $contactFont3 = "0.8rem";
+export const $contactFont4 = "0.7rem";
+export const $contactFont5 = "0.6rem";
+export const $contactFont6 = "0.5rem";
+export const $contactFont7 = "0.5rem";
+export const $contactFont8 = "0.3rem";

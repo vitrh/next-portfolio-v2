@@ -9,8 +9,8 @@ export const $darkblue = "#061D3A";
 // Hover & Click Colors
 
 export const $darkred = "#c50505";
-export const $gray = "#adadad";
+export const $gray = "#797979";
 
 // linear gradient colors
-export const $blueGrad =
-  " linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)";
+
+export const $lightBlue = "#6FEEFF";

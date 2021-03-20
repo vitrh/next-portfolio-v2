@@ -42,13 +42,13 @@ export const Navbar = () => {
       </NavDiv>
 
       <Menu isOpen={isOpen}>
-        <ItemDiv>
-          <Items data-glitch="◖About me"> ◖About me </Items>
+        <ItemDiv href="/about">
+          <Items data-glitch="◖About"> ◖About </Items>
         </ItemDiv>
-        <ItemDiv>
+        <ItemDiv href="#work" onClick={openMenu}>
           <Items data-glitch="◖Work"> ◖Work </Items>
         </ItemDiv>
-        <ItemDiv>
+        <ItemDiv href="#contact" onClick={openMenu}>
           <Items data-glitch="◖Contact"> ◖Contact </Items>
         </ItemDiv>
       </Menu>

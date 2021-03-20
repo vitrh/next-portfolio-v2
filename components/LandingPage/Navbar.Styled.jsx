@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
-import * as color from "../theme/GlobalColor";
-import * as typeface from "../theme/GlobalFont";
-import { media } from "../theme/MediaQueries";
+import * as color from "../../theme/GlobalColor";
+import * as typeface from "../../theme/GlobalFont";
+import { media } from "../../theme/MediaQueries";
 
 export const NavContainer = styled.div`
   display: flex;
@@ -54,11 +54,11 @@ export const HamburgerDiv = styled.div`
   ${HamburgerMenu} {
     &:first-child {
       transform: ${({ isOpen }) =>
-        isOpen ? "rotate(45deg) translate(4px, 8px)" : ""};
+        isOpen ? "rotate(45deg) translate(3px, 8px)" : ""};
     }
     &:last-child {
       transform: ${({ isOpen }) =>
-        isOpen ? "rotate(-45deg) translate(0px, -4px)" : ""};
+        isOpen ? "rotate(-45deg) translate(0px, -3px)" : ""};
     }
   }
 `;
@@ -141,8 +141,13 @@ export const ItemDiv = styled.a`
   align-items: center;
   position: relative;
   max-width: 80vw;
+  text-decoration: none;
 
   margin-left: 4rem;
+  :visited {
+    text-decoration: none;
+    color: black;
+  }
   &:first-child {
     margin-top: 10.3125rem;
   }

@@ -93,6 +93,7 @@ export const LinkName = styled.a`
     font-size: ${typeface.$contactFont7};
   }
   &:hover {
+    transition: all 500ms ease-in-out;
     color: ${color.$lightBlue};
   }
 `;

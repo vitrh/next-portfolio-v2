@@ -48,4 +48,8 @@ export const Text = styled.p`
   font-weight: ${typeface.$regular};
   font-size: ${typeface.$mqrFont5};
   color: ${color.$white};
+
+  @media (max-width: 550px) {
+    font-size: ${typeface.$contactFont4};
+  }
 `;

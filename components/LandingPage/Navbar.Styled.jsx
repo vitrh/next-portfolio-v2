@@ -142,7 +142,7 @@ export const ItemDiv = styled.a`
   position: relative;
   max-width: 80vw;
   text-decoration: none;
-
+  color: inherit;
   margin-left: 4rem;
   :visited {
     text-decoration: none;

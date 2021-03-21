@@ -31,7 +31,7 @@ html {
 
     a, a:visited, a:hover {
     cursor: pointer;
-  
+    
     text-decoration: none;
    
     } 

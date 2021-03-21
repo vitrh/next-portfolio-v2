@@ -57,7 +57,7 @@ export const Footer = () => {
           <Link href="/">
             <LinkName>Impressum</LinkName>
           </Link>
-          <LinkName>Datenschutzerklärung</LinkName>
+          <LinkName href="/datenschutz">Datenschutzerklärung</LinkName>
         </LinkDiv>
         <LinkDiv>
           <CopyMeDiv>

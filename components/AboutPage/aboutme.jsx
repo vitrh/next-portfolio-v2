@@ -6,6 +6,7 @@ import {
   Text,
   Title,
 } from "./aboutme.styled";
+import { IconDiv, SMIcons } from "../LandingPage/Hero.Styled";
 
 export const Aboutme = () => {
   return (
@@ -14,7 +15,7 @@ export const Aboutme = () => {
         <Title>about me</Title>
       </AboutDiv>
       <TextDiv>
-        <Text>Hi, I'm Vinh Thong👋!</Text>
+        <Text>Hi, I'm Vinh Thong Trinh👋!</Text>
       </TextDiv>
       <TextDiv>
         {/* WHO AM I? */}
@@ -30,11 +31,23 @@ export const Aboutme = () => {
         <Text>
           I passionately create high performant websites built with NextJS.
         </Text>
-        <Text></Text>
+        <Text>
+          I am a self-taught web developer & love to discover new things.
+        </Text>
       </TextDiv>
       {/* WHY I DO IT */}
       <TextDiv>
-        <Text>I love it</Text>
+        <Text>You want to know more about me?</Text>
+        <Text>Connect with me on Instagram or write me an E-Mail!</Text>
+      </TextDiv>
+      <TextDiv>
+        {" "}
+        <SMIcons
+          href="https://www.instagram.com/vnhtrnh/"
+          style={{
+            backgroundImage: "url(instagram.svg)",
+          }}
+        />
       </TextDiv>
     </AboutContainer>
   );

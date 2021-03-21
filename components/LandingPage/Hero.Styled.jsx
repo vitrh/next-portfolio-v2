@@ -16,9 +16,11 @@ export const HeroContainer = styled.div`
 
   @media (min-width: ${media.tablet}) {
     min-height: 100vh;
+    margin-bottom: 5rem;
     max-width: ${media.tablet};
   }
   @media (min-width: ${media.laptopS}) {
+    margin-bottom: 5rem;
     max-width: ${media.laptopS};
   }
   @media (min-width: ${media.laptopM}) {

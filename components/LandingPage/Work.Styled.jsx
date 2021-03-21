@@ -80,6 +80,7 @@ export const Line = styled.span`
     }
     @media (max-width: ${media.laptopL}) {
       height: 18rem;
+      margin-bottom: 4rem;
     }
   }
   &:last-child {
@@ -89,6 +90,7 @@ export const Line = styled.span`
     }
     @media (max-width: ${media.laptopL}) {
       height: 18rem;
+      margin-top: 4rem;
     }
   }
 `;

@@ -224,20 +224,6 @@ export const Items = styled.h1`
     width: 100%;
     opacity: 0.8;
   }
-  &:after {
-    color: #f0f;
-    z-index: -2;
-  }
-  &:before {
-    color: #0ff;
-    z-index: -1;
-  }
-  &:hover {
-    &:before {
-      animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 5;
-    }
-    &:after {
-      animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both 5;
-    }
+ 
   }
 `;

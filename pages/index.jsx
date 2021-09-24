@@ -26,7 +26,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-      <Work />
+      {/* <Work /> */}
       <Contact />
       <Footer />
     </div>
